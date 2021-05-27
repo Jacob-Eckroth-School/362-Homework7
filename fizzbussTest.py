@@ -10,6 +10,8 @@ class fizzbuzzTestCase(unittest.TestCase):
         self.assertEqual(fizzbuzz.getFizzBuzzResult(3),"Fizz")
     def test_divisibleByFive(self):
         self.assertEqual(fizzbuzz.getFizzBuzzResult(5),"Buzz")
+    def test_divisibleByFiveAndThree(self):
+        self.assertEqual(fizzbuzz.getFizzBuzzResult(15),"FizzBuzz")
 
 
 
