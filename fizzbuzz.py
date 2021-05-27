@@ -1,3 +1,3 @@
 
 def getFizzBuzzResult(val):
-    return None
+    return str(val)
