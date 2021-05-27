@@ -1,3 +1,3 @@
 
 def isALeapYear(year):
-    return None
+    return False
