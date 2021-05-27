@@ -8,7 +8,9 @@ class fizzbuzzTestCase(unittest.TestCase):
         self.assertEqual(fizzbuzz.getFizzBuzzResult(1),"1")
     def test_divisibleByThree(self):
         self.assertEqual(fizzbuzz.getFizzBuzzResult(3),"Fizz")
-        
+    def test_divisibleByFive(self):
+        self.assertEqual(fizzbuzz.getFizzBuzzResult(5),"Buzz")
+
 
 
 if __name__ == "__main__":
