@@ -7,3 +7,9 @@ def getFizzBuzzResult(val):
     elif(val%3==0):
         return "Fizz"
     return str(val)
+
+def printAll():
+    for x in range(1,101):
+        print(getFizzBuzzResult(x))
+
+printAll()
